@@ -1,20 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`integration tests noDiagnostics 7 1`] = `
+exports[`integration tests addUndefinedExactOptionalPropertyTypes 7 1`] = `
 {
-  "cwd": "cases/noDiagnostics",
+  "cwd": "cases/addUndefinedExactOptionalPropertyTypes",
   "args": [
     "-e",
-    "4114",
+    "2375",
     "--write"
   ],
   "logs": [
     "Using TypeScript 4.3.5",
-    "No diagnostics found with code 4114",
-    "Found 0 codefixes",
-    "no changes remaining"
+    "No diagnostics found with code 2375",
+    "Found 0 codefixes"
   ],
-  "remainingChanges": [
+  "changes": [
     {
       "dataType": "Map",
       "value": []
